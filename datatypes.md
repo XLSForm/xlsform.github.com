@@ -1,7 +1,9 @@
 ---
+published: true
 layout: page
 title: Data Types
 ---
+
 {% include JB/setup %}
 
 For those of you coming from paper surveys, you will appreciate that Android smartphones can help us collect “new” kinds of data, like GPS co-ordinates, images, audio, video, and information encoded in barcodes and QR codes. For now, we’ll introduce you to two of these question types: ‘geopoint’ and ‘image’.
@@ -9,7 +11,11 @@ For those of you coming from paper surveys, you will appreciate that Android sma
 
 **geopoint** - Collect GPS coordinates.
 
+![geopoint](/assets/img/collect_geopoint.png)
+
 **image** - Take a photograph.
+
+![capture image](/assets/img/collect_image.png)
 
 Let’s collect the gps coordinates and a picture of the household using the following XLSform. To make this tutorial easier to read we will switch from the Excel file screenshots to a tabular notation.
 
@@ -27,6 +33,5 @@ Excel 'survey' worksheet
 
 Notice how the Excel ‘a_worksheet_name’ worksheet preceding the table specifies on which worksheet of the workbook we are working on (we have been working on the Excel ‘survey’ worksheet for now but other worksheets will be added as we develop a more advanced survey).
 
-![geopoint](/assets/img/collect_geopoint.png)
 
-![capture image](/assets/img/collect_image.png)
+
