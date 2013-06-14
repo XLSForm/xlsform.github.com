@@ -1,3 +1,9 @@
+---
+layout: page
+title: Data Types
+---
+{% include JB/setup %}
+
 For those of you coming from paper surveys, you will appreciate that Android smartphones can help us collect “new” kinds of data, like GPS co-ordinates, images, audio, video, and information encoded in barcodes and QR codes. For now, we’ll introduce you to two of these question types: ‘geopoint’ and ‘image’.
 
 
