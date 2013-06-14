@@ -2,9 +2,8 @@
 published: true
 layout: page
 title: New Data Types
-tags:
-- types
-- beginner
+tags: [ types, beginner ]
+category: intro
 ---
 
 {% include JB/setup %}
