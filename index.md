@@ -60,6 +60,10 @@ Now let’s start populating the survey questionnaire. The first section will li
 | integer | Integer (ie, whole number) input. |
 | decimal | Decimal input. |
 
+| type | label |
+| ---- | ----- |
+| text | A     |
+
 Let’s add the household id and respondent’s age as numeric integer fields
 and the respondent’s name as a simple alphanumeric field.
 This will require the use of the ‘type’ ‘text’ and the ‘type’ ‘integer’.
