@@ -55,14 +55,10 @@ Important rules to remember:
 Now let’s start populating the survey questionnaire. The first section will likely include basic information such as the respondent’s name, age of the respondent, household number, etc.  We already know how to collect the name. For age, household number, and other fields, ODK lets us specify the “type” of the information to be entered (numbers, dates, etc). This will help us reduce data entry errors. To do this we can use a different question ‘type’, ODK Collect has defined a number question types to support all data types that surveys usually collect.  Here we present some of the most basic types ODK Collect supports (you’ll see the full list later).
 
 | type | label |
-+------+-------+
+| ---- | ----- |
 | text | Text input |
 | integer | Integer (ie, whole number) input. |
 | decimal | Decimal input. |
-
-| type | label |
-| ---- | ----- |
-| text | A     |
 
 Let’s add the household id and respondent’s age as numeric integer fields
 and the respondent’s name as a simple alphanumeric field.
