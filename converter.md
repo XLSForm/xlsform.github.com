@@ -2,10 +2,11 @@
 layout: page
 title: Converter 
 header: Converter
+group: navigation
 ---
 {% include JB/setup %}
 
-<iframe src="http://23.21.114.69/xlsform/" width="100%" height="240"></iframe>
+<iframe src="http://23.21.114.69/xlsform/" width="100%" height="240" seamless="seamless"></iframe>
 
 Notes
 ------------
